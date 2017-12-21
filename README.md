@@ -6,6 +6,7 @@ http://www.free-css.com/free-css-templates/page202/stanley
 
 準備
 ```
-npm i  -g gulp
+npm i -g gulp
+npm i
 ```
 
