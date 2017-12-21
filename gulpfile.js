@@ -36,8 +36,8 @@ gulp.task('clean', function (cb) {
 gulp.task('nunjucks', function () {
   return gulp.src([
     'src/template/**/*.njk',
-    '!src/template/_layout/*.njk',
-    '!src/template/_parts/*.njk'
+    '!src/template/_layout/**/*.njk',
+    '!src/template/_parts/**/*.njk'
   ]).pipe(nunjucksRender({
     path: ['src/template/']
   })).pipe(gulp.dest('dist'))
