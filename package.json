@@ -4,8 +4,6 @@
   "description": "template http://www.free-css.com/free-css-templates/page202/stanley",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server --files 'dist/**/*' -s dist",
-    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -18,8 +16,10 @@
   },
   "homepage": "https://github.com/eiichi-worker/web_decrements.tech#readme",
   "devDependencies": {
+    "browser-sync": "^2.19.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-nunjucks-render": "^2.2.1",
     "nunjucks": "^3.0.1",
     "run-sequence": "^2.2.0"
