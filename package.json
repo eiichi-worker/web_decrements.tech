@@ -18,7 +18,7 @@
   "devDependencies": {
     "browser-sync": "^2.19.0",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-gh-pages": "^0.5.4",
     "gulp-nunjucks-render": "^2.2.1",
     "nunjucks": "^3.0.1",
