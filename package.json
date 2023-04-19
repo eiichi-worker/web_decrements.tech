@@ -16,11 +16,11 @@
   },
   "homepage": "https://github.com/eiichi-worker/web_decrements.tech#readme",
   "devDependencies": {
-    "browser-sync": "^2.19.0",
+    "browser-sync": "^2.29.1",
     "del": "^3.0.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-gh-pages": "^0.5.4",
-    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-nunjucks-render": "^2.2.3",
     "nunjucks": "^3.0.1",
     "run-sequence": "^2.2.0"
   }
